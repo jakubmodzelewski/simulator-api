@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin
+@CrossOrigin("https://ip-simulator.herokuapp.com/")
 @RequestMapping("workspace/link")
 @Slf4j
 @AllArgsConstructor

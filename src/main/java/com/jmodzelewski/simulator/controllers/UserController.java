@@ -14,6 +14,7 @@ import java.util.List;
 import static org.springframework.http.HttpStatus.OK;
 
 @RestController
+@CrossOrigin("https://ip-simulator.herokuapp.com/")
 @RequestMapping("/api/auth")
 @AllArgsConstructor
 public class UserController {

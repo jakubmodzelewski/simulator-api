@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@CrossOrigin
+@CrossOrigin("https://ip-simulator.herokuapp.com/")
 @RequestMapping("/workspace/node")
 @Slf4j
 @AllArgsConstructor
